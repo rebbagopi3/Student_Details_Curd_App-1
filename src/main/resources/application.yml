@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 123456
+    url: jdbc:mysql://localhost:3306/jsdb4
+    username: root
+    
+#tables are created by data-jpa
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+#      it showing the sql querrys
+    show-sql: true
